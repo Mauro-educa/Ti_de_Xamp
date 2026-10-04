@@ -19,8 +19,8 @@
 
 
 
-    $posicion = array_search("samsung", $dispositivos);
-    echo "El primer dispositivo de samsung es: $posicion<br>";
+    $id = array_search("samsung", $dispositivos);
+    echo "El primer dispositivo de samsung es: $id<br>";
 
     ?>
 </body>

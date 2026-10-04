@@ -20,11 +20,12 @@
 
 
     $existe = array_key_exists("pc", $dispositivos);
-    echo "El primer dispositivo de samsung es: $posicion<br>";
     if ($existe) {
-        echo " Hay pc existe<br>";
+        echo " Hay pc <br>";
     }
-
+    else{
+        echo "no hay pc";
+    }
 
     ?>
 </body>

@@ -9,9 +9,6 @@ echo "que cantidad hay de cada animal  </br>";
 echo "que cantidad hay de patas  </br>";
 echo "comprueba que cantidad de animales es mayor </br>";
 
-Ejercicio calcular patas y animales de una granja:
-En una granja hay 10 animales, sumando pollos y vacas
-
 $animales = 10;
 $patas = 28;
 $vacas = ($patas - 2 * $animales) / 2;
